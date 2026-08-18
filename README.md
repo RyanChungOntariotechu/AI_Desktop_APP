@@ -41,13 +41,12 @@ pip install PySide6 python-dotenv groq RealtimeSTT openwakeword edge-tts Pillow
 - Windows (uses os.startfile and taskkill for app control)
 - Python 3.10+
 2. Install Dependencies
-  pip install PySide6 python-dotenv groq RealtimeSTT openwakeword edge-tts Pillow
+- pip install PySide6 python-dotenv groq RealtimeSTT openwakeword edge-tts Pillow
 3. Configure your API key
 
-Create a .env file in the project root:
+- Create a .env file in the project root:
 
-GROQ_API_KEY=your_groq_api_key_here
-(Warning: Please hide your API keys)
+- GROQ_API_KEY=your_groq_api_key_here (Warning: Please hide your API keys)
 
 4. Register your apps
 
