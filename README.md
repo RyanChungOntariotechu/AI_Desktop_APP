@@ -19,11 +19,11 @@ Feature Details
 - Typed input fallback if mic quality fails
 
 # Project Structure
-Main.py - Entry point
-Main_window.py - Layout of the UI, dialogs, Widgets (Manage Apps, chat display status panels)
-Chat_worker.py - Wake-word/STT loop, Groq chat and tool-calling, TTS synthesis
-tools.py - Tools Implementation
-apps.json - Registered apps and paths
+- Main.py - Entry point
+- Main_window.py - Layout of the UI, dialogs, Widgets (Manage Apps, chat display status panels)
+- Chat_worker.py - Wake-word/STT loop, Groq chat and tool-calling, TTS synthesis
+- tools.py - Tools Implementation
+- apps.json - Registered apps and paths
 
 # Tools Used
 - Pyside6 (GUI,Widgets,Multimedia playback)
