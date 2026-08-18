@@ -58,7 +58,7 @@ bash
 python main.py
 
 -----------------------------------------------------------------------------------------------------------------
-#Notes
+# Notes
 
 File and folder creation is sandboxed to a local workspace/ folder — the assistant can't write anywhere else on disk, and traversal attempts (.., absolute paths, drive letters) are blocked.
 Creating a file or folder is a two-step process: the assistant stages the request, then waits for you to explicitly confirm on your next turn before anything is written — it can't stage and confirm its own request in the same turn.
